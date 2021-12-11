@@ -11,6 +11,16 @@
     <title>Photographer Portfolio</title>
 </head>
 <body>
+    <div class='top-section'>
+        <div class='sidenav' id='mysidenav'>
+            <a href="javascript:void(0)" class='closebtn' onclick="closeNav()">&times;</a>
+            <a href="#"><i class=' fa fa-home'></i>Home</a>
+            <a href="#about"><i class='fa fa-address-book'></i>About</a>
+            <a href="#gallery"><i class='fa fa-camera-retro'></i>Gallery</a>
+            <a href="#contact"><i class='fa fa-phone'></i>Contact</a>
+        </div>
+    </div>
+    <span onclick="openNav()" class='opening fa fa-bars'></span>
     <div class='navbox'>
         <a href="#"><i class=' fa fa-home'></i>Home</a>
         <a href="#about"><i class='fa fa-address-book'></i>About</a>
@@ -89,7 +99,7 @@
         <div class='btns'>
             <button onclick="one()">1</button>
             <button onclick="two()">2</button>
-            <button onclick="four()">4</button>
+            <button onclick="four()" class='third-btn'>4</button>
         </div>
         <div class='gallery'>
             <div class='row'>

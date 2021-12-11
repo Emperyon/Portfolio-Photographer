@@ -17,3 +17,10 @@ const four = () => {
         elements[i].style.flex = '25%';
     }
 }
+//side navbar for phone size
+function openNav() {
+    document.getElementById('mysidenav').style.width = '250px';
+}
+function closeNav() {
+    document.getElementById('mysidenav').style.width = '0px';
+}
