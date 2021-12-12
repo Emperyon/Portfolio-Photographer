@@ -143,7 +143,7 @@
 }
 .content1 {
     width: 100%;
-    height: 1200px;
+    height: auto;
     box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: space-evenly;
@@ -153,6 +153,7 @@
 }
 .box-one {
     width: 70%;
+    margin: 60px 0;
     height: auto;
     display: flex;
     justify-content: center;
@@ -189,6 +190,8 @@
 }
 .box-two {
     width: 70%;
+    margin-top: 60px;
+    margin-bottom: 50px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -221,6 +224,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin: 60px 0;
 }
 .box-three p {
     width: 70%;
@@ -560,7 +564,7 @@ footer {
         display: none;
     }
     .content1 {
-        height: 1600px;
+        height: auto;
     }
     .box-one {
         width: 90%;
